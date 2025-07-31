@@ -30,5 +30,6 @@ int main(void)
 	scanf ("%3d", &a);
 	b=(a/100) * (a%100/10) * ((a%100)%10);
 	printf("%d\n",b);
+	return 0;
 }
 
