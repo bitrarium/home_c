@@ -1,5 +1,5 @@
 /*
- * hw01.c
+ * hw03_A3.c
  * 
  * Copyright 2025 BITRARIUM <BITRARIUM@DESKTOP-LCIE77B>
  * 
@@ -26,12 +26,8 @@
 
 int main(void)
 {
-	printf("   *\n");
-	printf("  ***\n");
-	printf(" *****\n");
-	printf("*******\n");
-	printf(" HHOHH\n");
-	printf(" ZZZZZ\n");
+	int a,b,c;
+	scanf ("%d %d %d", &a, &b, &c);
+	printf("%d""+""%d""+""%d""=""%d",a,b,c,a+b+c);
 	return 0;
 }
-

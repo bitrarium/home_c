@@ -1,5 +1,5 @@
 /*
- * hw01.c
+ * hw03_A12.c
  * 
  * Copyright 2025 BITRARIUM <BITRARIUM@DESKTOP-LCIE77B>
  * 
@@ -26,8 +26,9 @@
 
 int main(void)
 {
-	printf("Let's\n");
-	printf("   go\n");
-	printf("     to walk\n");
-	return 0;
+	int a,b;
+	scanf ("%3d", &a);
+	b=a/100 + a%100/10 + (a%100)%10;
+	printf("%d\n",b);
 }
+
